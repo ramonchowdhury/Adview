@@ -1,0 +1,91 @@
+body {
+  margin-top: 90px; }
+
+
+.card-title {
+  height: 100px !important;
+  overflow-y: hidden !important;
+}
+
+.my-image {
+  max-height: 142px;
+  overflow-y: hidden;
+  display: flex;
+}
+
+.my-card-body {
+    height: 140px;
+    overflow-y: hidden;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  background: #fff;
+  opacity: 0.8; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px; }
+    .navbar .nav-item .nav-link {
+      color: #252525; }
+    .navbar .nav-item .nav-link:hover {
+      color: #3292a6; }
+  .navbar .nav-item:last-child {
+    padding-right: 0; }
+
+#showcase {
+  position: relative;
+  background-image: url("../img/mountains.jpg");
+  min-height: 600px; }
+  #showcase .primary-overlay {
+    background: rgba(50, 146, 156, 0.7);
+    min-height: 600px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+
+#subscribe {
+  background: #252525; }
+
+#authors img {
+  margin-top: -50px; }
+
+#authors .fa {
+  font-size: 25px;
+  color: rgba(50, 146, 156, 0.7); }
+
+#authors .card:hover {
+  background: #3292a6;
+  color: #fff; }
+  #authors .card:hover .fa {
+    color: #fff; }
+
+#search {
+  background: #252525; }
+
+.carousel-item {
+  height: 650px; }
+
+.carousel-img-1 {
+  background: url("../img/1.jpg");
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url("../img/2.jpg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url("../img/2.jpg");
+  background-size: cover; }
+
+.effect:hover {
+  background: #333333;
+  color: #fff; }
+
+@media (max-width: 576px) {
+  #showcase h1 {
+    font-size: 3rem; } }
+
+
+

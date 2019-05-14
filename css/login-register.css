@@ -1,0 +1,103 @@
+body{
+	overflow-x: hidden;
+	background: fixed;
+}
+a, a:hover {
+    text-decoration: none;
+}
+.myButton_sm {
+	padding: 0.3em 1.2em;
+	font-size: 1.2em;
+	font-weight: 600;
+}
+.myButton_lg {
+	padding: 0.3em 1.8em;
+	font-size: 1.2em;
+	font-weight: 600;
+}
+.myButton_border:hover {
+    color: #555;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0.5);
+}
+.myButton_border {
+	background: none;
+	border: 0.2em solid #fff;
+	box-shadow: 3px 5px 8px rgba(0,0,0,0.5);
+    transition: 0.2s ease-in all;
+}
+.data-span {
+    font-weight: 600;
+	color: #d6af0b;
+}
+
+/* Title's */
+.title {
+	font-size: 1.6em;
+	font-weight: 500;
+	border-bottom: 0.1em solid #990099;
+	margin-bottom: 0.4em;
+}
+
+/* Borders */
+.border_left {
+	border-left:0.2em solid #990099;
+}
+
+
+/* For Header Section */
+.header {
+	background: /*#0288D1*/    #008080;
+    color: #fff;
+	padding: 1.6em 1em;
+
+}
+.logo {
+	 color: #FFFFFF;
+    text-decoration: none;
+	font-size:28px;
+	font-weight: 900;
+	font-variant:small-caps;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.create{
+	margin-top: 20px;
+	margin-left: 60px;
+	font-size: 40px;
+}
+
+.breaker{
+	padding-top: 2px;
+}
+
+
+.black{
+	background: url('img/bg.png');
+}
+
+/* Footer */
+.footer {
+	background: #008080;
+	width: 100%; 
+	padding: 2em 0;
+	color: #ccc;
+	bottom: 0;
+	left: 0;
+	position: relative;
+    margin-top: 5em;
+}
+
+.footer-content{
+    padding-left:200px;
+}
+.footer-content-list ul li{
+    margin: 15px;
+    
+}
+.copyright {
+	padding-left: 5em;
+	padding-top: 1em;
+}
+.mainav {
+	background: #008080 !important;
+}

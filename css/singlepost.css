@@ -1,0 +1,135 @@
+/* Post Style at Main Page */
+.post-holder {
+	background: #fff;
+	padding: 2em 0;
+}
+.post {
+	margin: 1em 0.3em;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    transition: 0.2s ease-in all;
+}
+.post:hover {
+	box-shadow: 5px 5px 15px rgba(0, 88, 255, 0.63);
+}
+.post-thumb {
+	
+}
+.post-detail {
+	width: 80%;
+	padding-left: 1em;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.post-detail h4, h5{
+    padding: 0.1em;
+    margin: 0;
+    font-weight: 400;
+}
+.post-thumb-image {
+	width: 15em;
+	height: 10em;
+	cursor: pointer;
+}
+.post-type {
+	color: #919191;
+}
+.post-title  {
+	font-size: 1.5em;
+	margin-top: -10px;
+	border-bottom: 1px solid #0288D1;
+	padding-bottom: 0.15em;
+	font-weight: 600;
+	color: #555;
+    max-height: 1.2em;
+    overflow-y: hidden;
+}
+.post-title a {
+    color: #555;
+    text-decoration: none;
+    transition: 0.2s ease-in all;
+}
+.post-title a:hover {
+    color: #0288D1;
+}
+.post-tag {
+	font-weight: 600;
+	color: #555;
+}
+.price-tag {
+	position: absolute;
+	left: 78%;
+	top: 70%;
+	max-width: 7.5em;
+	text-align: center;
+	font-weight: 600;
+	color: #990099;
+	overflow-x: hidden;
+    background: #f4d00b;
+    border: none;
+    border-radius: 5em;
+    transition: 0.1s ease-in all;
+    box-shadow: 2px 4px 6px rgba(0,0,0,0.5);
+}
+.price-tag:hover {
+    box-shadow: 0px 0px 0px rgba(0,0,0,0.5);
+}
+
+.post-image-caption {
+  position: absolute;
+  background-color: #008CBA;
+  overflow: hidden;
+  top: 67%;
+  left: 10;
+  width: 30.8%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.caption-text {
+  color: #000;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  cursor: pointer;
+}
+.post-thumb:hover .post-image-caption {
+	height: 25%;
+}
+.login1-form-btn{
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  background: #57b846;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 0 25px;
+  margin-left: 604px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.login1-form-btn:hover {
+  background: #FF0000;
+}
+
+.delete-button{
+  margin-top:20px;
+  padding-right: 400px;
+}
